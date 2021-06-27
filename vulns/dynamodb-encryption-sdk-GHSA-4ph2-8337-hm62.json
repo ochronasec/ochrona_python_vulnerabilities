@@ -1,0 +1,38 @@
+{
+    "name": "dynamodb-encryption-sdk",
+    "cve_id": "GHSA-4ph2-8337-hm62",
+    "publish_date": "2021-02-08T17:43:49Z",
+    "cwe_id": null,
+    "owner": "Amazon Web Services",
+    "affected_versions": [
+        {
+            "version_value": "1.3.0",
+            "operator": "<"
+        }
+    ],
+    "references": [
+        "https://github.com/aws/aws-dynamodb-encryption-python/security/advisories/GHSA-4ph2-8337-hm62",
+        "https://github.com/advisories/GHSA-4ph2-8337-hm62"
+    ],
+    "description": "### Impact\nThis advisory concerns users of MostRecentProvider in the DynamoDB Encryption Client with a key provider like AWS Key Management Service that allows for permissions on keys to be modified.\n\nWhen key usage permissions were changed at the key provider, time-based key reauthorization logic in MostRecentProvider did not reauthorize the use of the key. This created the potential for keys to be used in the DynamoDB Encryption Client after permissions to do so were revoked at the key provider.\n\n### Patches\nFixed as of 1.3.0. We recommend users to modify their code and adopt `CachingMostRecentProvider`.\n\n\n### Workarounds\nUsers who cannot upgrade to use the `CachingMostRecentProvider` can call `clear()` on the cache to manually flush all of its contents. Next use of the key will force a re-validation to occur with the key provider.",
+    "latest_version": "2.0.0",
+    "language": "python",
+    "license": "Apache-2.0",
+    "repository_summary": "DynamoDB Encryption Client for Python",
+    "repo_url": "https://github.com/aws/aws-dynamodb-encryption-python",
+    "impact": {
+        "cvss3_score": null,
+        "cvss3_severity": null,
+        "av": null,
+        "ac": null,
+        "pr": null,
+        "ui": null,
+        "s": null,
+        "c": null,
+        "i": null,
+        "a": null,
+        "impact_score": null,
+        "exploitability_score": null
+    },
+    "ochrona_severity_score": 2
+}

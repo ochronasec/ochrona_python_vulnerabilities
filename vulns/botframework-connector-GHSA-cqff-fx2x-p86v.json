@@ -1,0 +1,46 @@
+{
+    "name": "botframework-connector",
+    "cve_id": "CVE-2021-1725",
+    "publish_date": "2021-03-08T15:50:10Z",
+    "cwe_id": "CWE-287",
+    "owner": "Microsoft",
+    "affected_versions": [
+        {"version_value": "4.10.0", "operator": "="},
+        {"version_value": "4.10.1", "operator": "="},
+        {"version_value": "4.9.0", "operator": "="},
+        {"version_value": "4.9.1", "operator": "="},
+        {"version_value": "4.9.2", "operator": "="},
+        {"version_value": "4.9.3", "operator": "="},
+        {"version_value": "4.8.0", "operator": "="},
+        {"version_value": "4.8.1", "operator": "="},
+        {"version_value": "4.7.0", "operator": "="},
+        {"version_value": "4.7.1", "operator": "="},
+        {"version_value": "4.7.2", "operator": "="}
+    ],
+    "references": [
+        "https://github.com/microsoft/botbuilder-python/security/advisories/GHSA-cqff-fx2x-p86v",
+        "https://github.com/advisories/GHSA-cqff-fx2x-p86v"
+    ],
+    "description": "### Impact\nA maliciously crafted claim may be incorrectly authenticated by the bot. Impacts bots that are not configured to be used as a Skill. This vulnerability requires an attacker to have internal knowledge of the bot.\n\n### Patches\nThe problem has been patched in all affected versions. Please see the list of patched versions for the most appropiate one for your individual case.\n\n### Workarounds\nUsers who do not wish or are not able to upgrade can add an authentication configuration containing ClaimsValidator, which throws an exception if Claims are Skill Claims. \n\nFor detailed instructions, see the link in the References section.\n\n### For more information\nIf you have any questions or comments about this advisory:\n* Open an issue in [Microsoft Bot Builder SDK](https://github.com/microsoft/botbuilder-python)\n* Email us at [bf-reports@microsoft.com](mailto:bf-reports@microsoft.com)",
+    "latest_version": "4.12.0",
+    "language": "python",
+    "license": "MIT",
+    "repository_summary": "The Microsoft Bot Framework provides what you need to build and connect intelligent bots that interact naturally wherever your users are talking, from text/sms to Skype, Slack, Office 365 mail and other popular services.",
+    "repo_url": "https://www.github.com/Microsoft/botbuilder-python",
+    "impact": {
+        "cvss3_score": 5.5,
+        "cvss3_severity": "MEDIUM",
+        "vector_string": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+        "av": "NETWORK",
+        "ac": "LOW",
+        "pr": "LOW",
+        "ui": "NONE",
+        "s": "UNCHANGED",
+        "c": "NONE",
+        "i": "NONE",
+        "a": "HIGH",
+        "impact_score": 3.6,
+        "exploitability_score": 1.8
+    },
+    "ochrona_severity_score": 5.5
+}

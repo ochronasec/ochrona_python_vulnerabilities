@@ -1,0 +1,39 @@
+{
+    "name": "docassemble",
+    "cve_id": "GHSA-qrmm-w4v4-q7f8",
+    "publish_date": "2021-05-06T15:27:22Z",
+    "cwe_id": "CWE-284",
+    "owner": "Jonathan Pyle",
+    "affected_versions": [
+        {
+            "version_value": "1.2.65",
+            "operator": "<"
+        }
+    ],
+    "references": [
+        "https://github.com/jhpyle/docassemble/security/advisories/GHSA-qrmm-w4v4-q7f8",
+        "https://github.com/advisories/GHSA-qrmm-w4v4-q7f8"
+    ],
+    "description": "### Impact\nThe vulnerability allows attackers to gain unauthorized access to information on the system through URL manipulation.\n\n### Patches\nThe vulnerability has been patched in version 1.2.65 of the `master` branch, version 1.1.113 of the 1.1.x series, and version 1.0.12 of the `stable` branch. The Docker image on docker.io has been patched.\n\n### Workarounds\nIf upgrading is not possible, manually apply the changes of https://github.com/jhpyle/docassemble/commit/e3dbf6ce054b3c0310996f0657289f5eed0a73fe and restart the server (e.g., by pressing Save on the Configuration screen).\n\n### Credit\nThe vulnerability was discovered by Jim Platania of Seiso LLC (@jimmio).\n\n### For more information\nIf you have any questions or comments about this advisory:\n* Open an issue in [docassemble](https://github.com/jhpyle/docassemble/issues)\n* Join the [Slack channel](https://join.slack.com/t/docassemble/shared_invite/zt-ohrn8y9z-_Fb3RAl~JPBU6Km7odBPfQ)\n* Email us at [jhpyle@gmail.com](mailto:jhpyle@gmail.com)\n",
+    "latest_version": "1.2.76",
+    "language": "python",
+    "license": "MIT",
+    "repository_summary": "The namespace package for the docassemble system.",
+    "repo_url": "https://docassemble.org",
+    "impact": {
+        "cvss3_score": 8.6,
+        "cvss3_severity": "HIGH",
+        "av": "NETWORK",
+        "ac": "LOW",
+        "pr": "NONE",
+        "ui": "NONE",
+        "s": "UNCHANGED",
+        "c": "HIGH",
+        "i": "LOW",
+        "a": "LOW",
+        "impact_score": 4.7,
+        "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:L",
+        "exploitability_score": 3.9
+    },
+    "ochrona_severity_score": 8.6
+}
