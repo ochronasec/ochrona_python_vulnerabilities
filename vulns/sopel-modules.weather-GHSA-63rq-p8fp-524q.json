@@ -1,0 +1,39 @@
+{
+    "name": "sopel-modules.weather",
+    "cve_id": "GHSA-63rq-p8fp-524q",
+    "publish_date": "2021-04-13T15:12:06Z",
+    "cwe_id": "CWE-200",
+    "owner": "Rusty Bower",
+    "affected_versions": [
+        {
+            "version_value": "1.2.4",
+            "operator": "<"
+        }
+    ],
+    "references": [
+        "https://github.com/sopel-irc/sopel-weather/security/advisories/GHSA-63rq-p8fp-524q",
+        "https://github.com/advisories/GHSA-63rq-p8fp-524q"
+    ],
+    "description": "If a user is actively blackholing the location or weather APIs, or those APIs become otherwise unavailable, it is possible for the API keys to get leaked to the active IRC channel.\n\nThis is patched in v1.2.4",
+    "latest_version": "1.2.2",
+    "language": "python",
+    "license": "MIT",
+    "repository_summary": "A working re-implementation of the weather module for Sopel",
+    "repo_url": "http://github.com/rustybower/sopel-weather",
+    "impact": {
+        "cvss3_score": 5.3,
+        "cvss3_severity": "MEDIUM",
+        "av": "NETWORK",
+        "ac": "LOW",
+        "pr": "NONE",
+        "ui": "NONE",
+        "s": "UNCHANGED",
+        "c": "LOW",
+        "i": "NONE",
+        "a": "NONE",
+        "impact_score": 1.4,
+        "exploitability_score": 3.9,
+        "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    },
+    "ochrona_severity_score": 5.3
+}
