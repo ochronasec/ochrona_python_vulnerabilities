@@ -1,0 +1,32 @@
+name: Package
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_release:
+    name: build_release
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: version
+        run: echo "::set-output name=version::$(cat ./vulns/.version)"
+        id: version
+      - name: archive
+        uses: thedoctor0/zip-release@master
+        with:
+          filename: '${{ steps.version.outputs.version }}.tar.gz'
+          type: tar
+          path: './vulns'
+      - name: release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "release.tar.gz,foo/*.txt"
+          draft: true
+          tag: ${{ steps.version.outputs.version }}
+          token: ${{ secrets.PUBLISH_TOKEN }}
