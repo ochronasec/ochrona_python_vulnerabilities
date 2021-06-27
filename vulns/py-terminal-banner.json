@@ -1,0 +1,40 @@
+{
+    "name": "py-terminal-banner",
+    "cve_id": null,
+    "publish_date": "20121-02-05T12:00Z",
+    "cwe_id": "CAPEC-630",
+    "owner": "Gabriel Machado",
+    "affected_versions": [
+        {
+            "version_value": "-",
+            "operator": "="
+        }
+    ],
+    "references": [
+        "https://bertusk.medium.com/reverse-shell-found-in-malicious-pypi-package-9d8cc20b437d"
+    ],
+    "description": "py-terminal-banner potentially impersonates the package terminal-banner. Because py-terminal-banner is delivered as a wheel, it will not automatically execute malicious code during setup.py installation. However, upon executing the generate_banner function, py-terminal-banner will open a reverse shell and attempt, then attempt to read and write the user's AWS credentials to an IP located in Brazil. The package is registered to Gabriel Machado, the name of a famous Brazilian football player.",
+    "latest_version": "0.0.6",
+    "language": "python",
+    "license": "MIT",
+    "repository_summary": null,
+    "repo_url": null,
+    "impact": {
+        "cvss2_score": null,
+        "cvss2_severity": null,
+        "vector_string": null,
+        "av": null,
+        "ac": null,
+        "pr": null,
+        "c": null,
+        "i": null,
+        "a": null,
+        "impact_score": null,
+        "exploitability_score": null,
+        "cvss3_score": null,
+        "cvss3_severity": null,
+        "ui": null,
+        "s": null
+    },
+    "ochrona_severity_score": 9.0
+}
