@@ -1,0 +1,40 @@
+{
+    "name": "pytagaro",
+    "cve_id": null,
+    "publish_date": "2021-07-29T19:15Z",
+    "cwe_id": "CAPEC-630",
+    "owner": "lenora123",
+    "affected_versions": [
+        {
+            "version_value": "-",
+            "operator": "="
+        }
+    ],
+    "references": [
+        "https://jfrog.com/blog/malicious-pypi-packages-stealing-credit-cards-injecting-code/"
+    ],
+    "description": "Enables remote code injection.  The malware tries to connect to a private IP address on TCP port 9009, and then execute malicious Python code is read from the socket.",
+    "latest_version": null,
+    "language": "python",
+    "license": null,
+    "repository_summary": null,
+    "repo_url": "https://pypi.org/project/pytagora/",
+    "impact": {
+        "cvss2_score": null,
+        "cvss2_severity": null,
+        "vector_string": null,
+        "av": null,
+        "ac": null,
+        "pr": null,
+        "c": null,
+        "i": null,
+        "a": null,
+        "impact_score": null,
+        "exploitability_score": null,
+        "cvss3_score": null,
+        "cvss3_severity": null,
+        "ui": null,
+        "s": null
+    },
+    "ochrona_severity_score": 9
+}
