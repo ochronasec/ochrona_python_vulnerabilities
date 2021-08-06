@@ -1,0 +1,39 @@
+{
+    "name": "vyper",
+    "cve_id": "GHSA-7f92-rr6w-cq64",
+    "publish_date": "2021-08-05T16:57:42Z",
+    "cwe_id": "CWE-119",
+    "owner": "Vyper Team",
+    "affected_versions": [
+        {
+            "version_value": "0.2.14",
+            "operator": "<="
+        }
+    ],
+    "references": [
+        "https://github.com/vyperlang/vyper/security/advisories/GHSA-7f92-rr6w-cq64",
+        "https://github.com/advisories/GHSA-7f92-rr6w-cq64"
+    ],
+    "description": "### Background\nWhen attempting to use the v0.2.14 release, @pandadefi discovered an issue using the `@nonreentrant` decorator.\n\n### Impact\nReentrancy protection storage slots get allocated to the same slots as storage variables, leading to the corruption of storage variables when using the `@nonreentrant` decorator.\n\n### Patches\nThis issue was fixed in v0.2.15 in #2391, #2379\n\n### Workarounds\nDon't use the `@nonreentrant` decorator in these versions.",
+    "latest_version": "0.2.12",
+    "language": "python",
+    "license": "Apache-2.0",
+    "repository_summary": "Vyper: the Pythonic Programming Language for the EVM",
+    "repo_url": "https://github.com/vyperlang/vyper",
+    "impact": {
+        "cvss3_score": 4.0,
+        "cvss3_severity": "MEDIUM",
+        "av": "LOCAL",
+        "ac": "LOW",
+        "pr": "NONE",
+        "ui": "NONE",
+        "s": "UNCHANGED",
+        "c": "NONE",
+        "i": "NONE",
+        "a": "LOW",
+        "impact_score": 1.4,
+        "exploitability_score": 2.5,
+        "vector_string": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+    },
+    "ochrona_severity_score": 4.0
+}
