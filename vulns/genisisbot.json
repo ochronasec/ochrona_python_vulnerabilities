@@ -1,0 +1,40 @@
+{
+    "name": "genesisbot",
+    "cve_id": null,
+    "publish_date": "2021-07-29T19:15Z",
+    "cwe_id": "CAPEC-630",
+    "owner": "xin1111",
+    "affected_versions": [
+        {
+            "version_value": "-",
+            "operator": "="
+        }
+    ],
+    "references": [
+        "https://jfrog.com/blog/malicious-pypi-packages-stealing-credit-cards-injecting-code/"
+    ],
+    "description": "The first payload of the noblesse “family” of malwares is stealing Discord authentication tokens. An authentication token allows the attacker to impersonate the user that originally held the token (similar to HTTP session cookies).  The second payload of the noblesse family is an “Autocomplete” information stealer. The third payload of the noblesse family gathers the following information about the victim’s system, and uploads it to the mentioned Webhook: IP address, computer name, user name, Windows license key information. Windows version, Screenshot image.",
+    "latest_version": null,
+    "language": "python",
+    "license": null,
+    "repository_summary": null,
+    "repo_url": "https://pypi.org/project/genesisbot/",
+    "impact": {
+        "cvss2_score": null,
+        "cvss2_severity": null,
+        "vector_string": null,
+        "av": null,
+        "ac": null,
+        "pr": null,
+        "c": null,
+        "i": null,
+        "a": null,
+        "impact_score": null,
+        "exploitability_score": null,
+        "cvss3_score": null,
+        "cvss3_severity": null,
+        "ui": null,
+        "s": null
+    },
+    "ochrona_severity_score": 6
+}
