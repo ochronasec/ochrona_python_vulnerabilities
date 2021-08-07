@@ -1,5 +1,8 @@
 # Change Log
 
+## 2021.08.07
+- Bulk Vuln backfill #1
+
 ## 2021.08.06
 - Added Zope - CVE-2021-32811
 - vyper - GHSA-7f92-rr6w-cq64
