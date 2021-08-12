@@ -1,6 +1,9 @@
 # Change Log
 
 ## 2021.08.09
+- Added yamale - CVE-2021-38305
+
+## 2021.08.09
 - Added mpmath - CVE-2021-29063
 - Added flask-user - CVE-2021-23401
 - Added glances - CVE-2021-23418
