@@ -1,5 +1,8 @@
 # Change Log
 
+## 2021.08.18
+- Bulk Vuln backfill #2
+
 ## 2021.08.12
 - Added yamale - CVE-2021-38305
 
