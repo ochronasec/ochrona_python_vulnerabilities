@@ -1,5 +1,9 @@
 # Change Log
 
+## 2021.08.26
+- Added jupyterlab - CVE-2021-32797
+- Added notebook - CVE-2021-32798
+
 ## 2021.08.18
 - Bulk Vuln backfill #2
 
