@@ -1,5 +1,11 @@
 # Change Log
 
+## 2021.08.31
+- Added quokka - CVE-2020-18702, CVE-2020-18703, CVE-2020-18705
+- Added django-widgy - CVE-2020-18704
+- Added binderhub - CVE-2021-39159
+- Added nbgitpuller - CVE-2021-39160
+
 ## 2021.08.27
 - Bulk Vuln backfill #3
 
