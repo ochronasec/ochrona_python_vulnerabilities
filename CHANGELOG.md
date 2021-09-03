@@ -1,5 +1,9 @@
 # Change Log
 
+## 2021.09.02
+- Added simiki - CVE-2020-19000, CVE-2020-19001
+- Added matrix-synapse - CVE-2021-39163, CVE-2021-39164
+
 ## 2021.08.31
 - Added quokka - CVE-2020-18702, CVE-2020-18703, CVE-2020-18705
 - Added django-widgy - CVE-2020-18704
