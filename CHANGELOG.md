@@ -1,6 +1,11 @@
 # Change Log
 
 ## 2021.09.02
+- Added Pillow - CVE-2021-23437
+- Added many new Tensorflow CVEs
+- Updated old Tensorflow records missing affected versions
+
+## 2021.09.02
 - Added simiki - CVE-2020-19000, CVE-2020-19001
 - Added matrix-synapse - CVE-2021-39163, CVE-2021-39164
 
