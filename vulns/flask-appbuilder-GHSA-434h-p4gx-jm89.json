@@ -1,5 +1,5 @@
 {
-    "name": "Flask-AppBuilder",
+    "name": "flask-appbuilder",
     "cve_id": "GHSA-434h-p4gx-jm89",
     "publish_date": "2021-05-27T18:38:36Z",
     "cwe_id": "CWE-284",

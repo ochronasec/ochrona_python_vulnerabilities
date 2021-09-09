@@ -1,6 +1,10 @@
 # Change Log
 
-## 2021.09.02
+## 2021.09.09
+- Added flask-restx - CVE-2021-32838
+- Added Flask-AppBuilder - CVE-2021-32805
+
+## 2021.09.08
 - Added Pillow - CVE-2021-23437
 - Added many new Tensorflow CVEs
 - Updated old Tensorflow records missing affected versions
