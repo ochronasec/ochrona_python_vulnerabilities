@@ -1,5 +1,9 @@
 # Change Log
 
+## 2021.09.14
+- Added parlai - CVE-2021-39207, CVE-2021-24040
+- Added rencode - CVE-2021-40839
+
 ## 2021.09.12
 - Added sqlite-web - CVE-2021-23404
 - Added sqlparse - GHSA-p5w8-wqhj-9hhf
