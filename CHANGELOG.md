@@ -1,6 +1,11 @@
 # Change Log
 
 ## 2021.09.14
+- Added mitmproxy - CVE-2021-39214
+- Added apprise - CVE-2021-39229
+- Backfill for tensorflow-cpu & tensorflow-gpu
+
+## 2021.09.14
 - Added parlai - CVE-2021-39207, CVE-2021-24040
 - Added rencode - CVE-2021-40839
 
