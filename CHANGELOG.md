@@ -1,6 +1,10 @@
 # Change Log
 
-## 2021.09.14
+## 2021.09.23
+- Added leo - CVE-2020-23478
+- Added ansible - CVE-2021-3583
+
+## 2021.09.21
 - Added mitmproxy - CVE-2021-39214
 - Added apprise - CVE-2021-39229
 - Backfill for tensorflow-cpu & tensorflow-gpu
