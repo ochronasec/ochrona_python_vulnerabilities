@@ -1,5 +1,10 @@
 # Change Log
 
+## 2021.10.01
+- Added shuup - CVE-2021-25962
+- Added nltk - CVE-2021-3828
+- Added esphome - CVE-2021-41104
+
 ## 2021.09.23
 - Added leo - CVE-2020-23478
 - Added ansible - CVE-2021-3583
