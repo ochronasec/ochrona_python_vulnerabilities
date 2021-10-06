@@ -1,5 +1,10 @@
 # Change Log
 
+## 2021.10.06
+- cobbler - CVE-2021-40323, CVE-2021-40324, CVE-2021-40325
+- shuup - CVE-2021-25963
+- slo-generator - CVE-2021-22557
+
 ## 2021.10.01
 - Added shuup - CVE-2021-25962
 - Added nltk - CVE-2021-3828
