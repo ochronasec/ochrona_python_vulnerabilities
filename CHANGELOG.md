@@ -1,9 +1,15 @@
 # Change Log
 
+## 2021.10.08
+- Added superset - CVE-2021-28125
+- Added scrapy - CVE-2021-41125
+- Added scrapy-splash - CVE-2021-41124
+- Added vyper - 2021-41122
+
 ## 2021.10.06
-- cobbler - CVE-2021-40323, CVE-2021-40324, CVE-2021-40325
-- shuup - CVE-2021-25963
-- slo-generator - CVE-2021-22557
+- Added cobbler - CVE-2021-40323, CVE-2021-40324, CVE-2021-40325
+- Added shuup - CVE-2021-25963
+- Added slo-generator - CVE-2021-22557
 
 ## 2021.10.01
 - Added shuup - CVE-2021-25962
