@@ -1,0 +1,39 @@
+{
+    "name": "rucio-webui",
+    "cve_id": "GHSA-v988-828w-xvf2",
+    "publish_date": "2021-10-22T16:21:07Z",
+    "cwe_id": "CWE-287",
+    "owner": "Rucio",
+    "affected_versions": [
+        {
+            "version_value": "1.26.7",
+            "operator": "<"
+        }
+    ],
+    "references": [
+        "https://github.com/rucio/rucio/security/advisories/GHSA-v988-828w-xvf2",
+        "https://github.com/advisories/GHSA-v988-828w-xvf2"
+    ],
+    "description": "### Impact\n`rucio-webui` installations of the `1.26` release line potentially leak the contents of cookies to other sessions within a wsgi container. Impact is that Rucio authentication tokens are leaked to other users accessing the `webui` within a close timeframe, thus allowing users to access the `webui` with the leaked authentication token. Privileges are therefore also escalated.\n\nRucio server / daemons are not affected by this issue, it is isolated to the webui.\n\n### Patches\nThis issue is fixed in the `1.26.7` release of the `rucio-webui`.\n\n### Workarounds\nInstallation of the `1.25.7` `webui` release. The `1.25` and previous webui release lines are not affected by this issue.\n\n### References\nhttps://github.com/rucio/rucio/issues/4928",
+    "latest_version": "1.26.7",
+    "language": "python",
+    "license": "Apache-2.0",
+    "repository_summary": "Rucio WebUI Package",
+    "repo_url": "https://github.com/rucio/rucio",
+    "impact": {
+        "cvss3_score": 7.5,
+        "cvss3_severity": "HIGH",
+        "av": "NETWORK",
+        "ac": "LOW",
+        "pr": "NONE",
+        "ui": "NONE",
+        "s": "UNCHANGED",
+        "c": "HIGH",
+        "i": "NONE",
+        "a": "NONE",
+        "impact_score": 3.6,
+        "exploitability_score": 3.9,
+        "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    },
+    "ochrona_severity_score": 7.5
+}

@@ -1,5 +1,8 @@
 # Change Log
 
+## 2021.11.12
+- October backfill #1
+
 ## 2021.10.08
 - Added superset - CVE-2021-28125
 - Added scrapy - CVE-2021-41125
