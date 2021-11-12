@@ -1,0 +1,39 @@
+{
+    "name": "starkbank-ecdsa",
+    "cve_id": "GHSA-9wx7-jrvc-28mm",
+    "publish_date": "2021-11-08T21:51:18Z",
+    "cwe_id": "CWE-347",
+    "owner": "Stark Bank",
+    "affected_versions": [
+        {
+            "version_value": "2.0.1",
+            "operator": "<"
+        }
+    ],
+    "references": [
+        "https://github.com/starkbank/ecdsa-dotnet",
+        "https://github.com/advisories/GHSA-9wx7-jrvc-28mm"
+    ],
+    "description": "An attacker can forge signatures on arbitrary messages that will verify for any public key. This may allow attackers to authenticate as any user within the Stark Bank platform, and bypass signature verification needed to perform operations on the platform, such as send payments and transfer funds. Additionally, the ability for attackers to forge signatures may impact other users and projects using these libraries in different and unforeseen ways.",
+    "latest_version": "2.0.1",
+    "language": "python",
+    "license": "MIT",
+    "repository_summary": "A lightweight and fast pure python ECDSA library",
+    "repo_url": "https://github.com/starkbank/ecdsa-python",
+    "impact": {
+        "cvss3_score": 7.5,
+        "cvss3_severity": "HIGH",
+        "vector_string": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:H/A:N",
+        "av": "NETWORK",
+        "ac": "HIGH",
+        "pr": "NONE",
+        "ui": "NONE",
+        "s": "CHANGED",
+        "c": "LOW",
+        "i": "HIGH",
+        "a": "NONE",
+        "impact_score": 4.7,
+        "exploitability_score": 2.2
+    },
+    "ochrona_severity_score": 7.5
+}
