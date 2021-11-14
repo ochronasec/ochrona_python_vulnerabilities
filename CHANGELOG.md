@@ -1,5 +1,8 @@
 # Change Log
 
+## 2021.11.14
+- Opencv backfill
+
 ## 2021.11.12
 - October backfill #1
 
