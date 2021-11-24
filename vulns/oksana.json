@@ -1,0 +1,41 @@
+{
+    "name": "oksana",
+    "cve_id": null,
+    "publish_date": "2021-10-13T00:00Z",
+    "cwe_id": "CAPEC-630",
+    "owner": "unknown",
+    "affected_versions": [
+        {
+            "version_value": "-",
+            "operator": "="
+        }
+    ],
+    "references": [
+        "https://bertusk.medium.com/malicious-pypi-packages-found-exfiltrating-data-and-opening-reverse-shells-87d4afb5d99e",
+        "https://jfrog.com/blog/python-malware-imitates-signed-pypi-traffic-in-novel-exfiltration-technique/"
+    ],
+    "description": "oksana will perform host exfiltration and send results to https://j0j0.xyz.",
+    "latest_version": null,
+    "language": "python",
+    "license": "Not Applicable",
+    "repository_summary": null,
+    "repo_url": null,
+    "impact": {
+        "cvss2_score": null,
+        "cvss2_severity": null,
+        "vector_string": null,
+        "av": null,
+        "ac": null,
+        "pr": null,
+        "c": null,
+        "i": null,
+        "a": null,
+        "impact_score": null,
+        "exploitability_score": null,
+        "cvss3_score": null,
+        "cvss3_severity": null,
+        "ui": null,
+        "s": null
+    },
+    "ochrona_severity_score": 7.0
+}

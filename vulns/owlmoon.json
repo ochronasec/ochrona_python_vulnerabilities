@@ -1,0 +1,40 @@
+{
+    "name": "owlmoon",
+    "cve_id": null,
+    "publish_date": "2021-10-13T00:00Z",
+    "cwe_id": "CAPEC-630",
+    "owner": "unknown",
+    "affected_versions": [
+        {
+            "version_value": "-",
+            "operator": "="
+        }
+    ],
+    "references": [
+        "https://jfrog.com/blog/python-malware-imitates-signed-pypi-traffic-in-novel-exfiltration-technique/"
+    ],
+    "description": "Discord token stealer trojan. Sends tokens to https://discord.com/api/webhooks/875931932360331294/wA0rLs3xX_2JgqlfqEfpYoL9zer_Qs7hpsMbwaDl6-UByE_ZRHiXm0t1lr-o_3RFBqBR",
+    "latest_version": null,
+    "language": "python",
+    "license": "Not Applicable",
+    "repository_summary": null,
+    "repo_url": null,
+    "impact": {
+        "cvss2_score": null,
+        "cvss2_severity": null,
+        "vector_string": null,
+        "av": null,
+        "ac": null,
+        "pr": null,
+        "c": null,
+        "i": null,
+        "a": null,
+        "impact_score": null,
+        "exploitability_score": null,
+        "cvss3_score": null,
+        "cvss3_severity": null,
+        "ui": null,
+        "s": null
+    },
+    "ochrona_severity_score": 7.0
+}
