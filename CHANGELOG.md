@@ -1,5 +1,8 @@
 # Change Log
 
+## 2021.11.24
+- Adding a backfill of malicious typosquatting and dependency confusion packages
+
 ## 2021.11.14
 - Opencv backfill
 

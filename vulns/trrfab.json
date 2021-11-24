@@ -1,0 +1,40 @@
+{
+    "name": "trrfab",
+    "cve_id": null,
+    "publish_date": "2021-10-13T00:00Z",
+    "cwe_id": "CAPEC-630",
+    "owner": "unknown",
+    "affected_versions": [
+        {
+            "version_value": "-",
+            "operator": "="
+        }
+    ],
+    "references": [
+        "https://jfrog.com/blog/python-malware-imitates-signed-pypi-traffic-in-novel-exfiltration-technique/"
+    ],
+    "description": "Dependency confusion, sends user info (id, hostname, /etc/passwd, /etc/hosts, /home) to yxznlysc47wvrb9r9z211e1jbah15q.burpcollaborator.net",
+    "latest_version": null,
+    "language": "python",
+    "license": "Not Applicable",
+    "repository_summary": null,
+    "repo_url": null,
+    "impact": {
+        "cvss2_score": null,
+        "cvss2_severity": null,
+        "vector_string": null,
+        "av": null,
+        "ac": null,
+        "pr": null,
+        "c": null,
+        "i": null,
+        "a": null,
+        "impact_score": null,
+        "exploitability_score": null,
+        "cvss3_score": null,
+        "cvss3_severity": null,
+        "ui": null,
+        "s": null
+    },
+    "ochrona_severity_score": 7.0
+}
