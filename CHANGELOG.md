@@ -1,5 +1,9 @@
 # Change Log
 
+## 2021.12.03
+- Added aim - CVE-2021-43775
+- Added lxml - CVE-2021-33511
+
 ## 2021.11.24
 - Adding a backfill of malicious typosquatting and dependency confusion packages
 
