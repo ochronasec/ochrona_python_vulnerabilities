@@ -1,0 +1,41 @@
+{
+    "name": "aws-login0tool",
+    "cve_id": null,
+    "publish_date": "2021-112-12T00:00Z",
+    "cwe_id": "CAPEC-630",
+    "owner": "unknown",
+    "affected_versions": [
+        {
+            "version_value": "-",
+            "operator": "="
+        }
+    ],
+    "references": [
+        "https://medium.com/ochrona/3-new-malicious-packages-found-on-pypi-a6bbb14b5e2",
+        "https://www.virustotal.com/gui/file/79d9ecfcc143ae3216904c882a3984a90901536e6fccd223eb9bf78d943df1cd"
+    ],
+    "description": "Discovered by Ochrona, aws-login0tool will attempt to install a Windows based trojan during package install.",
+    "latest_version": null,
+    "language": "python",
+    "license": "Not Applicable",
+    "repository_summary": null,
+    "repo_url": null,
+    "impact": {
+        "cvss2_score": null,
+        "cvss2_severity": null,
+        "vector_string": null,
+        "av": null,
+        "ac": null,
+        "pr": null,
+        "c": null,
+        "i": null,
+        "a": null,
+        "impact_score": null,
+        "exploitability_score": null,
+        "cvss3_score": null,
+        "cvss3_severity": null,
+        "ui": null,
+        "s": null
+    },
+    "ochrona_severity_score": 7.0
+}

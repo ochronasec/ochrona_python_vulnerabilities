@@ -1,5 +1,8 @@
 # Change Log
 
+## 2021.12.12
+- Added 3 new malicious packages discovered on pypi - aws-login0tool, dpp-client, and dpp-client1234
+
 ## 2021.12.03
 - Added aim - CVE-2021-43775
 - Added lxml - CVE-2021-33511

@@ -1,0 +1,40 @@
+{
+    "name": "dpp-client1234",
+    "cve_id": null,
+    "publish_date": "2021-112-12T00:00Z",
+    "cwe_id": "CAPEC-630",
+    "owner": "unknown",
+    "affected_versions": [
+        {
+            "version_value": "-",
+            "operator": "="
+        }
+    ],
+    "references": [
+        "https://medium.com/ochrona/3-new-malicious-packages-found-on-pypi-a6bbb14b5e2"
+    ],
+    "description": "Discovered by Ochrona, dpp-client1234 will attempt to exfiltrate user data including environment variables and file listings.",
+    "latest_version": null,
+    "language": "python",
+    "license": "Not Applicable",
+    "repository_summary": null,
+    "repo_url": null,
+    "impact": {
+        "cvss2_score": null,
+        "cvss2_severity": null,
+        "vector_string": null,
+        "av": null,
+        "ac": null,
+        "pr": null,
+        "c": null,
+        "i": null,
+        "a": null,
+        "impact_score": null,
+        "exploitability_score": null,
+        "cvss3_score": null,
+        "cvss3_severity": null,
+        "ui": null,
+        "s": null
+    },
+    "ochrona_severity_score": 7.0
+}
