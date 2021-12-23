@@ -27,6 +27,6 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: "${{ steps.version.outputs.version }}.tar.gz"
-          draft: true
+          draft: false
           tag: ${{ steps.version.outputs.version }}
           token: ${{ secrets.PUBLISH_TOKEN }}
