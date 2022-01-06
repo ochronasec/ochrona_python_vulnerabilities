@@ -1,5 +1,9 @@
 # Change Log
 
+## 2022.01.06
+- Added celery - CVE-2021-23727
+- Added ujson - CVE-2021-45958
+
 ## 2021.12.23
 - December backfill
 
