@@ -1,5 +1,14 @@
 # Change Log
 
+## 2022.01.08
+- Added gerapy - CVE-2021-43857, CVE-2021-32849
+- Added nltk - CVE-2021-43854, CVE-2021-3842
+- Added archivy - CVE-2021-4162
+- Added pyo - CVE-2021-41499
+- Added numpy - CVE-2021-33430
+- Added cvxopt - CVE-2021-41500
+- Added pytorch-lightning - CVE-2021-4118
+
 ## 2022.01.06
 - Added celery - CVE-2021-23727
 - Added ujson - CVE-2021-45958
