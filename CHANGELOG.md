@@ -1,5 +1,13 @@
 # Change Log
 
+## 2022.01.13
+- Added django - CVE-2021-45115, CVE-2021-45116, CVE-2021-45452
+- Added dnslib - CVE-2022-22846
+- Added gerapy - CVE-2021-32849
+- Added pillow - CVE-2022-22815, CVE-2022-22816, CVE-2022-22817
+- Added pipend - CVE-2022-21668
+- Added pyo - CVE-2021-41499
+
 ## 2022.01.08
 - Added gerapy - CVE-2021-43857, CVE-2021-32849
 - Added nltk - CVE-2021-43854, CVE-2021-3842
