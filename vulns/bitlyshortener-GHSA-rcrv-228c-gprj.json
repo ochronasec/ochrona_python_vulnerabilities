@@ -1,0 +1,41 @@
+{
+    "name": "bitlyshortener",
+    "cve_id": "GHSA-rcrv-228c-gprj",
+    "publish_date": "2022-01-21T18:39:40Z",
+    "cwe_id": "CWE-400",
+    "owner": "Ouroboros Chrysopoeia",
+    "affected_versions": [
+        {
+            "version_value": "0.6.0",
+            "operator": "<"
+        }
+    ],
+    "references": [
+        "https://github.com/impredicative/bitlyshortener/security/advisories/GHSA-rcrv-228c-gprj",
+        "https://github.com/impredicative/bitlyshortener/commit/b307d70bedf745305fa0dd3c5c600d8cb88d09b5",
+        "https://github.com/impredicative/bitlyshortener/releases/tag/0.6.0",
+        "https://github.com/advisories/GHSA-rcrv-228c-gprj"
+    ],
+    "description": "### Impact\nDue to a sudden upstream breaking change by Bitly, versions of `bitlyshortener` <0.6.0 generate invalid short URLs. All users are affected and must update immediately.\n\n### Patches\nUpgrading `bitlyshortener` to 0.6.0 or newer will prevent the generation such invalid short URLs.\n\n### Workarounds\nA workaround is to replace \"https://j.mp/\" in each generated short URL with \"https://bit.ly/\".\n\n### References\n* [Release notes](https://github.com/impredicative/bitlyshortener/releases)",
+    "latest_version": "0.6.0",
+    "language": "python",
+    "license": "GPL-3.0-only",
+    "repository_summary": "High-volume Bitly V4 URL shortener with memory-cache",
+    "repo_url": "https://github.com/impredicative/bitlyshortener/",
+    "impact": {
+        "cvss3_score": 7.5,
+        "cvss3_severity": "HIGH",
+        "av": "NETWORK",
+        "ac": "LOW",
+        "pr": "NONE",
+        "ui": "NONE",
+        "s": "UNCHANGED",
+        "c": "NONE",
+        "i": "NONE",
+        "a": "HIGH",
+        "impact_score": 3.6,
+        "exploitability_score": 3.9,
+        "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    },
+    "ochrona_severity_score": 7.5
+}

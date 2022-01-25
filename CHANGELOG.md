@@ -1,5 +1,14 @@
 # Change Log
 
+## 2022.01.25
+- Added apkleaks - CVE-2021-21386
+- Added bitlyshortener - GHSA-rcrv-228c-gprj
+- Added calibreweb - CVE-2021-4164, CVE-2021-4170, CVE-2021-4171
+- Added codechecker - CVE-2021-44217
+- Added ipython - CVE-2022-21699
+- Added onionshare-cli - CVE-2022-21688, CVE-2022-21689, CVE-2022-21690, CVE-2022-21691, CVE-2022-21692, CVE-2022-21693, CVE-2022-21694, CVE-2022-21695, CVE-2022-21696
+- Added wagtail - CVE-2022-21683
+
 ## 2022.01.13
 - Added django - CVE-2021-45115, CVE-2021-45116, CVE-2021-45452
 - Added dnslib - CVE-2022-22846
