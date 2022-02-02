@@ -1,5 +1,16 @@
 # Change Log
 
+## 2022.02.02
+- Added treq - CVE-2022-23607"
+- Added Products.CMFPlone - CVE-2022-23599
+- Added Products.ATContentTypes - CVE-2022-23599
+- Added plone.app.contenttypes - CVE-2022-23599
+- Added loguru - CVE-2022-0329
+- Added Flask-AppBuilder - CVE-2022-21659
+- Added calibreweb - CVE-2022-0339
+- Added apache-airflow - CVE-2021-45230
+- Added jupyter-server-proxy - CVE-2022-21697
+
 ## 2022.02.01
 - Fixed typo in paramiko - CVE-2018-7750
 
