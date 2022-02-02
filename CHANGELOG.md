@@ -1,5 +1,8 @@
 # Change Log
 
+## 2022.02.01
+- Fixed typo in paramiko - CVE-2018-7750
+
 ## 2022.01.25
 - Added apkleaks - CVE-2021-21386
 - Added bitlyshortener - GHSA-rcrv-228c-gprj
