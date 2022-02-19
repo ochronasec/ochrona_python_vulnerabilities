@@ -1,5 +1,9 @@
 # Change Log
 
+## 2022.02.19
+- Added pollbot - CVE-2022-0637
+- Added sanic - GHSA-7p79-6x2v-5h88
+
 ## 2022.02.18
 - Added a large dump of tensorflow vulns
 - Added twisted - CVE-2022-21712
