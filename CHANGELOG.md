@@ -1,5 +1,9 @@
 # Change Log
 
+## 2022.02.18
+- Added a large dump of tensorflow vulns
+- Added twisted - CVE-2022-21712
+
 ## 2022.02.02
 - Added treq - CVE-2022-23607"
 - Added Products.CMFPlone - CVE-2022-23599
