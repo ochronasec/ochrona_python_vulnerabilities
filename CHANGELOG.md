@@ -1,5 +1,12 @@
 # Change Log
 
+## 2022.03.03
+- weblate - CVE-2022-24710
+- apache-airflow - CVE-2021-45229, CVE-2022-24288
+- b2 - CVE-2022-23653
+- b2sdk - CVE-2022-23651
+- mlflow - CVE-2022-0736
+
 ## 2022.02.19
 - Added pollbot - CVE-2022-0637
 - Added sanic - GHSA-7p79-6x2v-5h88
