@@ -1,6 +1,16 @@
 # Change Log
 
 ## 2022.03.03
+- weblate - CVE-2022-23915
+- scappy - GHSA-mfjm-vh54-3f96, CVE-2022-0577
+- twisted - CVE-2022-21716
+- pytorch-lightning - CVE-2022-0845
+- httpie - CVE-2022-24737
+- django-spirit - CVE-2022-0869
+- calibreweb - CVE-2022-0766, CVE-2022-0767
+- archivy - CVE-2022-0697
+
+## 2022.03.03
 - weblate - CVE-2022-24710
 - apache-airflow - CVE-2021-45229, CVE-2022-24288
 - b2 - CVE-2022-23653

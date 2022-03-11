@@ -1,0 +1,40 @@
+{
+    "name": "scrapy",
+    "cve_id": "GHSA-mfjm-vh54-3f96",
+    "publish_date": "2022-03-01T22:13:28Z",
+    "cwe_id": "CWE-200",
+    "owner": "Scrapy developers",
+    "affected_versions": [
+        {
+            "version_value": "2.6.0",
+            "operator": "<"
+        }
+    ],
+    "references": [
+        "https://github.com/scrapy/scrapy/security/advisories/GHSA-mfjm-vh54-3f96",
+        "https://github.com/scrapy/scrapy/commit/e865c4430e58a4faa0e0766b23830f8423d6167a",
+        "https://github.com/advisories/GHSA-mfjm-vh54-3f96"
+    ],
+    "description": "### Impact\n\nResponses from domain names whose public domain name suffix contains 1 or more periods (e.g. responses from `example.co.uk`, given its public domain name suffix is `co.uk`) are able to set cookies that are included in requests to any other domain sharing the same domain name suffix.\n\n### Patches\n\nUpgrade to Scrapy 2.6.0, which restricts cookies with their domain set to any of those in the [public suffix list](https://publicsuffix.org/).\n\nIf you are using Scrapy 1.8 or a lower version, and upgrading to Scrapy 2.6.0 is not an option, you may upgrade to Scrapy 1.8.2 instead.\n\n### Workarounds\n\nThe only workaround for unpatched versions of Scrapy is to [disable cookies altogether](https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#std-setting-COOKIES_ENABLED), or [limit target domains](https://docs.scrapy.org/en/latest/topics/spiders.html#scrapy.spiders.Spider.allowed_domains) to a subset that does not include domain names with one of the public domain suffixes affected (those with 1 or more periods).\n\n### References\n* https://publicsuffix.org/\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n* [Open an issue](https://github.com/scrapy/scrapy/issues)\n* [Email us](mailto:opensource@zyte.com)\n",
+    "latest_version": "2.6.1",
+    "language": "python",
+    "license": "BSD-3-Clause",
+    "repository_summary": "A high-level Web Crawling and Web Scraping framework",
+    "repo_url": "https://github.com/scrapy/scrapy",
+    "impact": {
+        "cvss3_score": 7.5,
+        "cvss3_severity": "HIGH",
+        "av": "NETWORK",
+        "ac": "LOW",
+        "pr": "NONE",
+        "ui": "NONE",
+        "s": "UNCHANGED",
+        "c": "HIGH",
+        "i": "NONE",
+        "a": "NONE",
+        "impact_score": 3.6,
+        "exploitability_score": 3.9,
+        "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    },
+    "ochrona_severity_score": 7.5
+}
