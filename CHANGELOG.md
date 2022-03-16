@@ -1,6 +1,10 @@
 # Change Log
 
-## 2022.03.03
+## 2022.03.16
+- pillow - GHSA-4fx9-vc88-q2xc, CVE-2022-24303
+- cobbler - CVE-2022-0860
+
+## 2022.03.11
 - weblate - CVE-2022-23915
 - scappy - GHSA-mfjm-vh54-3f96, CVE-2022-0577
 - twisted - CVE-2022-21716
