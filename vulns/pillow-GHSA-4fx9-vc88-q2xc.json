@@ -1,0 +1,40 @@
+{
+    "name": "pillow",
+    "cve_id": "GHSA-4fx9-vc88-q2xc",
+    "publish_date": "2022-03-11T23:39:27Z",
+    "cwe_id": "CWE-400",
+    "owner": "Alex Clark (PIL Fork Author)",
+    "affected_versions": [
+        {
+            "version_value": "9.0.0",
+            "operator": "<"
+        }
+    ],
+    "references": [
+        "https://github.com/python-pillow/Pillow/commit/baae9ec4b67c68e3adaf1208cf54e8de5e38a6fd",
+        "https://pillow.readthedocs.io/en/stable/releasenotes/9.0.0.html#ensure-jpegimageplugin-stops-at-the-end-of-a-truncated-file",
+        "https://github.com/advisories/GHSA-4fx9-vc88-q2xc"
+    ],
+    "description": "JpegImagePlugin may append an EOF marker to the end of a truncated file, so that the last segment of the data will still be processed by the decoder.\n\nIf the EOF marker is not detected as such however, this could lead to an infinite loop where JpegImagePlugin keeps trying to end the file.",
+    "latest_version": "9.0.1",
+    "language": "python",
+    "license": "HPND",
+    "repository_summary": "An extensive library providing additional facitilities to the Python Standard Library.",
+    "repo_url": "https://github.com/python-pillow/Pillow",
+    "impact": {
+        "cvss3_score": 4.3,
+        "cvss3_severity": "LOW",
+        "av": "NETWORK",
+        "ac": "LOW",
+        "pr": "NONE",
+        "ui": "REQUIRED",
+        "s": "UNCHANGED",
+        "c": "NONE",
+        "i": "NONE",
+        "a": "HIGH",
+        "impact_score": 1.4,
+        "exploitability_score": 2.8,
+        "vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    },
+    "ochrona_severity_score": 4.3
+}
