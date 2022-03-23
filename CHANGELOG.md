@@ -1,5 +1,10 @@
 # Change Log
 
+## 2022.03.23
+- libvcs - CVE-2022-21187
+- twisted - GHSA-32gv-6cf3-wcmq
+- vcspull - CVE-2022-21187
+
 ## 2022.03.16
 - pillow - GHSA-4fx9-vc88-q2xc, CVE-2022-24303
 - cobbler - CVE-2022-0860
