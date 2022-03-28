@@ -1,5 +1,14 @@
 # Change Log
 
+## 2022.03.28
+- gradio - CVE-2022-24770
+- mitmproxy - CVE-2022-24766
+- nvflare - CVE-2022-21822
+- tensorflow - CVE-2021-29607
+- tensorflow-cpu - CVE-2021-29607
+- tensorflow-gpu - CVE-2021-29607
+- waitress - CVE-2022-24761
+
 ## 2022.03.23
 - libvcs - CVE-2022-21187
 - twisted - GHSA-32gv-6cf3-wcmq
