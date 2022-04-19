@@ -1,5 +1,10 @@
 # Change Log
 
+## 2022.04.19
+- jupyter-server - CVE-2022-24757
+- Flask-AppBuilder - CVE-2022-24776
+- horovod - CVE-2022-0315
+
 ## 2022.03.28
 - gradio - CVE-2022-24770
 - mitmproxy - CVE-2022-24766
