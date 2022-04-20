@@ -1,6 +1,10 @@
 # Change Log
 
 ## 2022.04.19
+- vyper - CVE-2022-24788, CVE-2022-24845
+- django-mfa3 - CVE-2022-24857
+
+## 2022.04.19
 - jupyter-server - CVE-2022-24757
 - Flask-AppBuilder - CVE-2022-24776
 - horovod - CVE-2022-0315
