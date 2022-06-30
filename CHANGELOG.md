@@ -1,6 +1,23 @@
 # Change Log
 
-## 2022.04.19
+## 2022.06.30
+- bottle - CVE-2022-31799
+- flask-session-captcha - CVE-2022-24880
+- flower - CVE-2022-30034
+- markdown2 - CVE-2009-3724
+- nvflare - CVE-2022-31604, CVE-2022-31605
+- phoenix-ws - GHSA-c8f7-x2g7-7fxj
+- pyjwt - CVE-2022-29217
+- PyPDF2 - CVE-2022-24859
+- salt - CVE-2022-22967
+- tensorflow - CVE-2022-29211, CVE-2022-29212, CVE-2022-29213, CVE-2022-29216
+- tensorflow-cpu - CVE-2022-29211, CVE-2022-29212, CVE-2022-29213, CVE-2022-29216
+- tensorflow-gpu - CVE-2022-29211, CVE-2022-29212, CVE-2022-29213, CVE-2022-29216
+- waitress - CVE-2022-31015
+- xml2rfc - GHSA-cf4q-4cqr-7g7w
+- removed lxml - CVE-2021-33511 due to a mislabeled vulnerability [ref](https://github.com/ochronasec/ochrona_python_vulnerabilities/issues/45)
+
+## 2022.04.20
 - vyper - CVE-2022-24788, CVE-2022-24845
 - django-mfa3 - CVE-2022-24857
 
