@@ -15,6 +15,7 @@
 - tensorflow-gpu - CVE-2022-29211, CVE-2022-29212, CVE-2022-29213, CVE-2022-29216
 - waitress - CVE-2022-31015
 - xml2rfc - GHSA-cf4q-4cqr-7g7w
+- removed lxml - CVE-2021-33511 due to a mislabeled vulnerability [ref](https://github.com/ochronasec/ochrona_python_vulnerabilities/issues/45)
 
 ## 2022.04.20
 - vyper - CVE-2022-24788, CVE-2022-24845
