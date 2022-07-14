@@ -1,5 +1,9 @@
 # Change Log
 
+## 2022.07.14
+- ujson - CVE-2022-31116, CVE-2022-31117
+- fixed typo in ujson - CVE-2021-45958
+
 ## 2022.06.30
 - bottle - CVE-2022-31799
 - flask-session-captcha - CVE-2022-24880
