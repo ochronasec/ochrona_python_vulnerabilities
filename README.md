@@ -1,3 +1,10 @@
+
+---
+**NOTICE**
+
+This repository is also no longer receiving regular updates.
+---
+
 # Ochrona Python Vulnerability Database
 
 Vulnerability Database to support [Ochrona](https://github.com/ochronasec/ochrona-cli).
